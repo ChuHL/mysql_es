@@ -19,7 +19,7 @@ try:
     i = -1
     for row in results:
 
-           i+=1
+           i=i+1
            es.index(index='financial', doc_type='financial_payment_analysis_total', body={
               'id': i,
               'ID': row[0],
