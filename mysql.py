@@ -16,7 +16,7 @@ try:
     # 获取所有记录列表
     results = cursor.fetchall()
     new = []
-    i = 2
+    i = 33
     for row in results:
 
            i=i+1
